@@ -2,6 +2,22 @@
 
 Solutions for Advent of Code 2025 challenges in Python.
 
+## How to use this repository
+
+To work on your own solutions and keep them separate from others:
+
+1. **Clone the repository:**
+	```bash
+	git clone https://github.com/ovanoss-syntech/AoC2025.git
+	cd AoC2025
+	```
+2. **Create a new branch for your solutions:**
+	```bash
+	git checkout -b your-username-solutions
+	```
+3. **Add your solution files in the `solutions/` folder.**
+4. **To view others' solutions, check out their branch!**
+
 ## Setup
 
 ### Create and activate virtual environment:
@@ -19,6 +35,7 @@ pip install -e .
 (Optional) - install dev tools:
 ```bash
 pip install -e ".[dev]"
+```
 
 ## Project Structure
 
@@ -39,9 +56,3 @@ Each solution should be run as a module:
 ```bash
 python solutions/day01.py
 ```
-
-## Notes
-
-- Input files should be stored in the `inputs/` folder
-- Shared functions should go in the `utils/` folder
-- Each day's solution can be a standalone Python file
