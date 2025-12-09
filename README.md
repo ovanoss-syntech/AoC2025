@@ -42,7 +42,7 @@ pip install -e ".[dev]"
 ```
 AoC2025/
 ├── solutions/          # Solution files for each day
-├── inputs/             # Input files for each day
+├── inputs/             # Input files for each day - DO NOT push inputs to your branch
 ├── utils/              # Shared utilities
 ├── venv/               # Virtual environment
 ├── pyproject.toml      # Project configuration
@@ -56,3 +56,7 @@ Each solution should be run as a module:
 ```bash
 python solutions/day01.py
 ```
+
+## Notes
+The author of Advent of Code requests that you do not copy the puzzle text
+or your inputs in full into the solution.
